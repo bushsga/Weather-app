@@ -1,0 +1,45 @@
+.forecast-container{
+  @apply mt-6;
+}
+.title {
+  @apply text-3xl font-bold text-slate-200;
+}
+
+.daily-item {
+  @apply bg-gray-200 rounded-md h-10 mx-1 flex items-center cursor-pointer;
+  @apply  px-5 py-1;
+  
+}
+
+.daily-item.day{
+  @apply text-gray-800 flex-1 pl-3 font-semibold;
+}
+
+.icon-small{
+  @apply w-10
+}
+
+.description{
+  @apply flex-1 pr-3 text-right;
+}
+
+.min-max{
+  @apply text-gray-500
+} 
+
+.daily-details-grid{
+  @apply grid grid-cols-2 bg-black bg-opacity-50 gap-3 px-3 py-1 rounded-lg text-red-400;
+}
+
+.daily-details-grid.item{
+  @apply flex justify-between h-7;
+}
+
+.daily-details-grid.item label:first-child{
+  @apply text-gray-500;
+}
+
+.daily-details-grid.item label:last-child{
+  @apply text-gray-800;
+}
+
